@@ -1,0 +1,32 @@
+.transaction-history {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgb(171, 157, 157);
+  border-radius: 2px;
+  border: 1px solid lightgray;
+}
+.thead {
+  text-transform: uppercase;
+  background-color: rgb(17, 175, 207);
+  color: rgba(255, 255, 255, 0.9);
+}
+.theadTh:first-child::first-letter {
+  margin-left: -10px;
+}
+.theadTh {
+  padding: 20px;
+}
+.tbodyTr:nth-child(2n-1) {
+  background-color: white;
+}
+.tbodyTd {
+  color: rgb(88, 88, 87);
+  padding: 20px;
+}
+.tbodyTd:first-child {
+  text-transform: capitalize;
+}
+.tbodyTd::first-letter {
+  margin-left: -10px;
+}
