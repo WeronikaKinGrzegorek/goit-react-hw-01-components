@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from '../css/FriendList.module.css';
+import css from './FriendList.module.css';
 import clsx from 'clsx';
 
 export default function FriendList({ friends }) {

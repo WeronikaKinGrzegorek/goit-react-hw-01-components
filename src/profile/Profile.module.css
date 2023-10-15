@@ -6,11 +6,10 @@
 }
 
 .description {
-  padding: 70px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding-bottom: 30px;
+  padding: 70px 70px 30px;
 }
 
 .avatar {
