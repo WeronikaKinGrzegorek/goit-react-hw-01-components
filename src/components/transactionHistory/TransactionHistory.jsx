@@ -1,3 +1,4 @@
+import React from 'react';
 import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
 
@@ -16,9 +17,11 @@ export default function TransactionHistory({ items }) {
         {items.map(({ id, type, amount, currency }) => {
           return (
             <tr key={id} className={css.tbodyTr}>
-              <td className={css.tbodyTd}>{type}</td>
-              <td className={css.tbodyTd}>{amount}</td>
-              <td className={css.tbodyTd}>{currency}</td>
+              <td className={css.tbodyTd}>
+                <span className={css.tbodyTdSpan}>{type}</span>
+              </td>
+              <td className={css.tbodyTdMiddle}>{amount}</td>
+              <td className={css.tbodyTdMiddle}>{currency}</td>
             </tr>
           );
         })}

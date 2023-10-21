@@ -23,6 +23,16 @@
 .tbodyTd {
   color: rgb(88, 88, 87);
   padding: 20px;
+  text-align: left;
+}
+.tbodyTdMiddle {
+  text-align: center;
+}
+.tbodyTdSpan {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 .tbodyTd:first-child {
   text-transform: capitalize;

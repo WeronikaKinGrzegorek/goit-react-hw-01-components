@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 import clsx from 'clsx';
